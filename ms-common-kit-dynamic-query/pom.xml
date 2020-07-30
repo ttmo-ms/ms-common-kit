@@ -8,13 +8,11 @@
     <version>2.3.2.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-
   <groupId>com.ttmo</groupId>
   <artifactId>ms-common-kit-dynamic-query</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.0-SNAPSHOT</version>
   <name>ms-common-kit-dynamic-query</name>
   <description>ms-common-kit</description>
-  <packaging>pom</packaging>
 
   <distributionManagement>
     <repository>
