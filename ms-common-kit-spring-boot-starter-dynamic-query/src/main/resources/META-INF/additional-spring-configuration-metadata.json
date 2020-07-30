@@ -1,0 +1,9 @@
+{
+  "properties": [
+    {
+      "name": "ttmo.banner",
+      "type": "java.lang.String",
+      "description": "Description for ttmo.banner."
+    }
+  ]
+}
