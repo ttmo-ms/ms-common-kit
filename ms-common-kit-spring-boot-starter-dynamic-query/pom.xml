@@ -14,6 +14,17 @@
   <name>ms-common-kit-spring-boot-starter-dynamic-query</name>
   <description>ms-common-kit-spring-boot-starter-dynamic-query</description>
 
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/ttmo-ms/ms-common-kit</url>
+    </repository>
+    <snapshotRepository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/ttmo-ms/ms-common-kit</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <properties>
     <java.version>1.8</java.version>
     <version>1.0.0-SNAPSHOT</version>
