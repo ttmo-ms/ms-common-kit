@@ -3,26 +3,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>com.ttmo</groupId>
-    <artifactId>ms-common-kit-dynamic-query</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.2.RELEASE</version>
     <relativePath/> <!-- lookup parent from repository -->
   </parent>
-
+  <groupId>com.ttmo</groupId>
   <artifactId>ms-common-kit-spring-boot-starter-dynamic-query</artifactId>
-  <version>${parent.version}</version>
+  <version>${version}</version>
   <name>ms-common-kit-spring-boot-starter-dynamic-query</name>
   <description>ms-common-kit-spring-boot-starter-dynamic-query</description>
 
   <properties>
     <java.version>1.8</java.version>
+    <version>1.0.0-SNAPSHOT</version>
   </properties>
 
   <dependencies>
     <dependency>
       <groupId>com.ttmo</groupId>
       <artifactId>ms-common-kit-dynamic-query</artifactId>
-      <version>${parent.version}</version>
+      <version>${version}</version>
     </dependency>
 
     <dependency>
@@ -31,5 +32,12 @@
       <version>2.3.2.RELEASE</version>
     </dependency>
   </dependencies>
+
+  <repositories>
+    <repository>
+      <id>github</id>
+      <url>https://maven.pkg.github.com/ttmo-ms/ms-common-kit</url>
+    </repository>
+  </repositories>
 
 </project>
