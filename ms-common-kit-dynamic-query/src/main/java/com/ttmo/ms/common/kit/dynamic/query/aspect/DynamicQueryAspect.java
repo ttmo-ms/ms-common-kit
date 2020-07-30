@@ -15,6 +15,7 @@
 package com.ttmo.ms.common.kit.dynamic.query.aspect;
 
 import com.ttmo.ms.common.kit.dynamic.query.annotation.DynamicQuery;
+import lombok.NoArgsConstructor;
 import org.apache.logging.log4j.util.Strings;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
@@ -33,6 +34,7 @@ import java.util.Arrays;
  * @author Jover Zhang
  */
 @Aspect
+@NoArgsConstructor
 public class DynamicQueryAspect {
 
     /**
@@ -183,6 +185,54 @@ public class DynamicQueryAspect {
             return -1;
         }
 
+    }
+
+    public DynamicQueryAspect(boolean showBanner) {
+        if (showBanner) {
+            System.out.println("\n" +
+                "           N777777777NO\n" +
+                "         N7777777777777N\n" +
+                "        M777777777777777N\n" +
+                "        $N877777777D77777M\n" +
+                "       N M77777777ONND777M\n" +
+                "       MN777777777NN  D777\n" +
+                "     N7ZN777777777NN ~M7778\n" +
+                "    N777777777777MMNN88777N\n" +
+                "    N777777777777MNZZZ7777O\n" +
+                "    DZN7777O77777777777777\n" +
+                "     N7OONND7777777D77777N\n" +
+                "      8$M++++?N???$77777$\n" +
+                "       M7++++N+M77777777N\n" +
+                "        N77O777777777777$                              M\n" +
+                "          DNNM$$$$777777N                              D\n" +
+                "         N$N:=N$777N7777M                             NZ\n" +
+                "        77Z::::N777777777                          ODZZZ\n" +
+                "       77N::::::N77777777M                         NNZZZ$\n" +
+                "     $777:::::::77777777MN                        ZM8ZZZZZ\n" +
+                "     777M::::::Z7777777Z77                        N++ZZZZNN\n" +
+                "    7777M:::::M7777777$777M                       $++IZZZZM\n" +
+                "   M777$:::::N777777$M7777M                       +++++ZZZDN\n" +
+                "     NN$::::::7777$$M777777N                      N+++ZZZZNZ\n" +
+                "       N::::::N:7$O:77777777                      N++++ZZZZN\n" +
+                "       M::::::::::::N77777777+                   +?+++++ZZZM\n" +
+                "       8::::::::::::D77777777M                    O+++++ZZ\n" +
+                "        ::::::::::::M777777777N                      O+?D\n" +
+                "        M:::::::::::M77777777778                     77=\n" +
+                "        D=::::::::::N7777777777N                    777\n" +
+                "       INN===::::::=77777777777N                  I777N\n" +
+                "      ?777N========N7777777777787M               N7777\n" +
+                "      77777$D======N77777777777N777N?         N777777\n" +
+                "     I77777$$$N7===M$$77777777$77777777$MMZ77777777N\n" +
+                "      $$$$$$$$$$$NIZN$$$$$$$$$M$$7777777777777777ON\n" +
+                "       M$$$$$$$$M    M$$$$$$$$N=N$$$$7777777$$$ND\n" +
+                "      O77Z$$$$$$$     M$$$$$$$$MNI==$DNNNNM=~N\n" +
+                "   7 :N MNN$$$$M$      $$$777$8      8D8I\n" +
+                "     NMM.:7O           777777778\n" +
+                "                       7777777MN\n" +
+                "                       M NO .7:\n" +
+                "                       M   :   M\n" +
+                "                            8");
+        }
     }
 
 }
